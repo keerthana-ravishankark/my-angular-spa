@@ -9,17 +9,17 @@
           <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">All Trends</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" routerLinkActive="active" >All Trends</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
-            <li><a class="dropdown-item" href="#">Deep Learning</a></li>
+            <li><a class="dropdown-item" routerLink="/machineLearning">Machine Learning</a></li>
+            <li><a class="dropdown-item" routerLink="/deepLink">Deep Learning</a></li>
             <li>
-              <a class="dropdown-item" href="#">Gen AI &raquo;</a>
+              <a class="dropdown-item" routerLink="/genAi">Gen AI &raquo;</a>
               <ul class="submenu dropdown-menu">
-                <li><a class="dropdown-item" href="#">Chat GPT</a></li>
-                <li><a class="dropdown-item" href="#">Copilot</a></li>
-                <li><a class="dropdown-item" href="#">Mid Journey</a></li>
-                <li><a class="dropdown-item" href="#">Gemini</a></li>
+                <li><a class="dropdown-item" routerLink="/chatGpt">Chat GPT</a></li>
+                <li><a class="dropdown-item" routerLink="/copilot">Copilot</a></li>
+                <li><a class="dropdown-item" routerLink="/midJourney">Mid Journey</a></li>
+                <li><a class="dropdown-item" routerLink="/gemini">Gemini</a></li>
               </ul>
             </li>
           </ul>
